@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(69, 54, 172);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container .todolist{
+    background-color: aliceblue;
+    width: 20%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    transform: translateY(60px);
+}
+.container .todolist h2{
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.container .todolist input{
+    outline: none;
+    border: 2px solid rgba(97, 145, 201, 0.4);
+    padding: 3px;
+    margin-bottom: 3px;
+    width: 80%;
+}
+.container .todolist .add{
+    width: 70%;
+    border: none;
+    background-color: rgb(80, 94, 223);
+    color: aliceblue;
+    text-align: center;
+    text-transform: capitalize;
+    height: 20px;
+    border-radius: 3px;
+}
+.container .box{
+    width: 100%;
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    transform: translateY(120px);
+}
+.container .box .box1{
+   width: 200px;
+   background-color: aliceblue;
+   min-height: 40px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin: 5px; 
+   border-radius: 8px;
+}
+.container .box .box1 h3{
+    font-size: 20px;
+    text-transform: capitalize;
+    border-radius: 5px;
+}
+.data{
+    background-color: rgb(48, 125, 193);
+    width: 80%;
+    text-transform: capitalize;
+    text-align: justify;
+    color: aliceblue;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
